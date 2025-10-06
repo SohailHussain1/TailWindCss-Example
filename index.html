@@ -1,298 +1,289 @@
 <!doctype html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/style.css" rel="stylesheet">
 </head>
-<body class=" bg-gradient-to-b from-[hsl(226,81%,8%)] to-blue-950">
-  <div class="mx-auto">
-  <header class="flex justify-between items-center mb-10 bg-[hsl(225,23%,24%)] rounded-lg h-12  ">
-    <div class="p-2">
-      <img src="/src/images/logo.svg">
-    </div>
-    <div class="flex items-center px-1 w-8 h-8 rounded m-2 bg-[hsl(226,25%,17%)]">
-      <img class="size-6" src="/src/images/icon-sun.svg">
-    </div>
-  </header>
-    <div class="flex justify-between items-center">
-      <div class="">
-        <h2 class="font-bold text-2xl">Extentions List</h2>
-      </div>
-      <div class="h-7 flex justify-evenly">
-        <div class="flex justify-center  w-10 mr-2 rounded-2xl bg-red-600">
-          <div>All </div>
-        </div>
-      <div class="flex justify-center w-16 mr-2 rounded-2xl bg-[hsl(226,25%,17%)]">
-          <div>Active </div>
-        </div>
-      <div class="flex justify-center w-18 mr-2 rounded-2xl bg-[hsl(226,25%,17%)]">
-          <div>Inactive </div>
-        </div>
-        
-      </div>
-</div>
-<div class="flex flex-wrap justify-between m-2">
-<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img class="w-16 h-16 object-contain" src="/src/images/logo-devlens.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">DevLens</h2>
-      <p class="font-light">Quickly inspect page layouts and visualize element boundaries</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
+<body class="bg-gradient-to-b from-[hsl(226,81%,8%)] to-blue-950 min-h-screen text-white">
+  <div class="mx-auto p-4">
     
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer" checked>
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>
-  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between ">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img class="w-16 h-16 object-contain" class="" src="/src/images/logo-style-spy.svg">
+    <!-- Header -->
+    <header class="flex justify-between items-center mb-6 bg-[hsl(225,23%,24%)] rounded-lg h-12 px-2">
+      <div class="flex items-center">
+        <img src="/src/images/logo.svg" alt="Logo" class="h-8 w-auto">
       </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">StyleSpy</h2>
-      <p class="font-light">Instantly analyze and copy CSS from any webpage element.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-    
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between ">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img class="w-16 h-16 object-contain" src="/src/images/logo-speed-boost.svg">
+      <div class="flex items-center px-1 w-8 h-8 rounded bg-[hsl(226,25%,17%)]">
+        <img class="size-6" src="/src/images/icon-sun.svg" alt="Theme Toggle">
       </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">SpeedBoost</h2>
-      <p class="font-light">Optimizes browser resource usage to accelerate page loading.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-json-wizard.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">JSONWizard</h2>
-      <p class="font-light">Formats, validates, and prettifies JSON responses in-browser.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer" checked>
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-tab-master-pro.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">TabMaster Pro</h2>
-      <p class="font-light">Organizes browser tabs into groups and sessions.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-viewport-buddy.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">ViewportBuddy</h2>
-      <p class="font-light">Simulates various screen resolutions directly within the browser.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer" checked>
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-markup-notes.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">Markup Notes</h2>
-      <p class=" font-light">Enables annotation and notes directly onto webpages for collaborative debugging.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-grid-guides.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">GridGuides</h2>
-      <p class="font-light">Overlay customizable grids and alignment guides on any webpage.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-palette-picker.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">Palette Picker</h2>
-      <p class="font-light">Instantly extracts color palettes from any webpage.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-link-checker.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">LinkChecker</h2>
-      <p class="font-light">Scans and highlights broken links on any page.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>  <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-      <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-dom-snapshot.svg">
-      </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">DOM Snapshot</h2>
-      <p class="font-light">Capture and export DOM structures quickly.</p>
-    </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer" checked>
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>
+    </header>
 
-   <div class="outline-1 w-80 bg-[hsl(226,25%,17%)] rounded-2xl  flex flex-col justify-between">
-    <div class="flex flex-row justify-evenly">
-       <div class="min-w-18 min-h-18  m-2">
-         <img  class="w-16 h-16 object-contain" src="/src/images/logo-console-plus.svg">
+    <!-- Extensions List Header -->
+    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mb-6">
+      <h2 class="font-bold text-2xl">Extensions List</h2>
+      <div class="flex flex-wrap gap-2">
+        <div class="flex justify-center px-3 py-1 rounded-2xl bg-red-600 cursor-pointer">All</div>
+        <div class="flex justify-center px-3 py-1 rounded-2xl bg-[hsl(226,25%,17%)] cursor-pointer">Active</div>
+        <div class="flex justify-center px-3 py-1 rounded-2xl bg-[hsl(226,25%,17%)] cursor-pointer">Inactive</div>
       </div>
-   
-    <div class="p-3">
-      <h2 class="font-bold">ConsolePlus</h2>
-      <p class="font-light">Enhanced developer console with advanced filtering and logging.</p>
     </div>
-    </div>
-    <div class="flex justify-between items-center">
-      
-      <div class=" ml-2 mb-2 flex justify-center outline w-18 rounded-2xl">Remove</div>
-    
-      <label class=" mr-2 relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" class="sr-only peer">
-          <div class="w-8.5 h-4.5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
-          <span class="absolute left-0 top-0 w-4.5 h-4.5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
-      </label>
-    </div>
-  </div>
 
-  
+    <!-- Extensions Grid -->
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      
+      <!-- DevLens -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-devlens.svg" alt="DevLens">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">DevLens</h2>
+            <p class="font-light text-sm">Quickly inspect page layouts and visualize element boundaries</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer" checked>
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- StyleSpy -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-style-spy.svg" alt="StyleSpy">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">StyleSpy</h2>
+            <p class="font-light text-sm">Instantly analyze and copy CSS from any webpage element.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- SpeedBoost -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-speed-boost.svg" alt="SpeedBoost">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">SpeedBoost</h2>
+            <p class="font-light text-sm">Optimizes browser resource usage to accelerate page loading.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- JSONWizard -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-json-wizard.svg" alt="JSONWizard">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">JSONWizard</h2>
+            <p class="font-light text-sm">Formats, validates, and prettifies JSON responses in-browser.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer" checked>
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- TabMaster Pro -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-tab-master-pro.svg" alt="TabMaster Pro">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">TabMaster Pro</h2>
+            <p class="font-light text-sm">Organizes browser tabs into groups and sessions.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- ViewportBuddy -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-viewport-buddy.svg" alt="ViewportBuddy">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">ViewportBuddy</h2>
+            <p class="font-light text-sm">Simulates various screen resolutions directly within the browser.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer" checked>
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Markup Notes -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-markup-notes.svg" alt="Markup Notes">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">Markup Notes</h2>
+            <p class="font-light text-sm">Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- GridGuides -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-grid-guides.svg" alt="GridGuides">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">GridGuides</h2>
+            <p class="font-light text-sm">Overlay customizable grids and alignment guides on any webpage.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Palette Picker -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-palette-picker.svg" alt="Palette Picker">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">Palette Picker</h2>
+            <p class="font-light text-sm">Instantly extracts color palettes from any webpage.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- LinkChecker -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-link-checker.svg" alt="LinkChecker">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">LinkChecker</h2>
+            <p class="font-light text-sm">Scans and highlights broken links on any page.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- DOM Snapshot -->
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-dom-snapshot.svg" alt="DOM Snapshot">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">DOM Snapshot</h2>
+            <p class="font-light text-sm">Capture and export DOM structures quickly.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer" checked>
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+      
+      <div class="w-full bg-[hsl(226,25%,17%)] rounded-2xl flex flex-col justify-between">
+        <div class="flex flex-row">
+          <div class="m-2">
+            <img class="w-16 h-16 object-contain" src="/src/images/logo-console-plus.svg" alt="ConsolePlus">
+          </div>
+          <div class="p-3">
+            <h2 class="font-bold">ConsolePlus</h2>
+            <p class="font-light text-sm">Enhanced developer console with advanced filtering and logging.</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center px-2 pb-2">
+          <div class="flex justify-center px-3 py-1 rounded-2xl outline cursor-pointer">Remove</div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-10 h-5 bg-gray-600 rounded-full peer-checked:bg-red-600 transition-colors"></div>
+            <span class="absolute left-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></span>
+          </label>
+        </div>
+      </div>
+
+    </div> 
   </div>
-</div>
- </div>
 </body>
 </html>
